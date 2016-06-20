@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showText:(id)sender {
+    _myLable.text = @"Hello World!";
+}
 @end
